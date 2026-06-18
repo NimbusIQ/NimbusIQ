@@ -1,42 +1,177 @@
+# Nimbus IQ AI
 
-# Nimbus iQ AI — Sovereign Roofing Intelligence
-**Alpha Build v5.1 — Architecture Lock Edition**
+AI-Native Roofing Intelligence Platform
 
-This repository contains the high-fidelity MVP and Pitch Deck for **Nimbus iQ AI**, the first sovereign roofing intelligence 
-platform built on Google Vertex AI.
+Nimbus IQ AI is a roofing operations and insurance claims intelligence platform designed to help contractors analyze storm damage, audit claim documentation, automate workflows, and generate code-compliant claim supplements using modern AI infrastructure.
 
-## 🚀 Presentation Instructions
-
-### 1. The "Live Demo" Sequence
-*   Navigate to the **MVP Demo** view in the Top Navigation.
-*   **The Hook**: Point out the "Sovereign Audit Terminal." Explain that we are ingestion Xactimate XML (standard insurance data) 
-and auditing it against a vector database of 2024 IRC Building Codes.
-*   **Action**: Click **"Initialize Live Audit."**
-*   **Observation**: Watch the "Reasoning Feed" on the right. This shows the Gemini agent calling tools to cross-reference code 
-citations (e.g., Drip Edge requirements).
-*   **Impact**: Highlight the **"Recovery Estimate."** In the mock scenario, the AI identified ~$4,200 in missing line items 
-required by McKinney city code.
-
-### 2. The "Investor Pitch" Sequence
-*   Navigate to the **Pitch Deck** view.
-*   **Slide 1**: Introduce the vision—Nimbus is the infrastructure layer for the $45B roofing market.
-*   **Slide 3 (Solution)**: Emphasize "Sovereign Infrastructure." We don't just "chat" with PDFs; we audibly verify them against 
-regulatory kernels.
-*   **Slide 6 (Economics)**: This is the "Why Now." The ROI for an operator is realized on the very first claim.
-
-## 🛠 Technical Stack
-*   **Foundation**: Next.js 14 + Tailwind CSS (App Router logic).
-*   **Intelligence**: Gemini 2.5 Pro (Vertex AI) for multimodal reasoning.
-*   **Orchestration**: Custom Agentic Flow for "Logic Injection."
-*   **Design**: "Sovereign Dark" industrial UI language.
-
-## 📈 Compliance & Sovereign Rules
-1. **No Hallucinations**: Every audit must cite a specific building code (IRC/IBC).
-2. **PII Masking**: All claimant data is sanitized before inference.
-3. **Audit Trails**: Every "Revenue Uplift" suggestion is logged for legal-grade defensibility.
+Built on Google Cloud and Vertex AI, Nimbus IQ combines weather intelligence, property data, document analysis, building code validation, and agentic workflows into a unified operating system for roofing contractors.
 
 ---
-**Founder & CEO**: Dustin Moore
-**Location**: McKinney, TX Hub
-**Status**: Shipping soon.
 
+## Overview
+
+The roofing and insurance restoration industry relies on fragmented software, manual inspections, disconnected data sources, and time-consuming claim review processes.
+
+Nimbus IQ AI centralizes these workflows into a single platform that enables contractors to:
+
+* Analyze storm and property risk data
+* Review insurance claim documentation
+* Generate claim supplement recommendations
+* Validate estimates against applicable building codes
+* Automate customer and project workflows
+* Manage operational intelligence through AI agents
+
+---
+
+## Core Features
+
+### Storm Intelligence
+
+* Weather event monitoring
+* Hail and wind impact analysis
+* Property risk scoring
+* Geographic storm tracking
+
+### Claims Intelligence
+
+* Insurance estimate review
+* Xactimate document analysis
+* Missing line-item detection
+* Claim supplement generation
+
+### Code Compliance Engine
+
+* Building code reference validation
+* IRC and IBC citation workflows
+* Jurisdiction-aware audit logic
+* Traceable compliance recommendations
+
+### Agentic Workflows
+
+* AI-powered task orchestration
+* Multi-step document review
+* Automated reasoning pipelines
+* Human-in-the-loop approval processes
+
+### Business Operations
+
+* CRM integration
+* Lead intelligence
+* Project tracking
+* Reporting and analytics
+
+---
+
+## Architecture
+
+### Frontend
+
+* Next.js 14
+* React
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* FastAPI
+* Python
+* Cloud Run
+* Firebase
+
+### Data Layer
+
+* Firestore
+* Cloud Storage
+* Vector Search
+* BigQuery
+
+### AI Layer
+
+* Gemini 2.5 Pro
+* Vertex AI
+* Retrieval-Augmented Generation (RAG)
+* Agentic Workflow Engine
+
+### Infrastructure
+
+* Google Cloud Platform
+* Cloud Run
+* Cloud Build
+* Firebase Hosting
+* Cloud Monitoring
+
+---
+
+## Example Workflow
+
+1. Contractor uploads inspection photos and claim documents.
+2. Nimbus extracts structured information.
+3. AI compares estimate data against roofing requirements and building code references.
+4. Potential omissions are identified.
+5. Supporting citations and recommendations are generated.
+6. Contractor reviews results before submission.
+
+---
+
+## Design Principles
+
+### Deterministic Outputs
+
+Recommendations must be supported by traceable evidence, calculations, or source documentation.
+
+### Human Review Required
+
+AI assists decision-making but does not replace professional judgment.
+
+### Security First
+
+* Role-based access control
+* PII protection
+* Audit logging
+* Secure cloud infrastructure
+
+### Explainable AI
+
+Every recommendation should provide supporting context and reasoning.
+
+---
+
+## Roadmap
+
+### Phase 1
+
+* Claims audit engine
+* Storm intelligence dashboard
+* CRM integration
+
+### Phase 2
+
+* Automated supplement generation
+* Property risk modeling
+* Multi-agent orchestration
+
+### Phase 3
+
+* Predictive storm response
+* Carrier intelligence
+* National contractor deployment
+
+---
+
+## Founder
+
+Dustin Moore
+
+Founder, Nimbus IQ AI
+
+McKinney, Texas
+
+11+ years in roofing, storm restoration, and insurance claims operations.
+
+---
+
+## Status
+
+Alpha MVP
+
+Actively developing and validating workflows with Google Cloud, Vertex AI, and modern agentic infrastructure.
